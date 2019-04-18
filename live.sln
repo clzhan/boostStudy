@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "live", "live\live.vcxproj", "{154E59EB-ECC7-41FE-ACB6-6DE540512B00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serverSync", "serverSync\serverSync.vcxproj", "{FB4DC8A8-B6F0-45D2-AB2C-77B8CA2C54C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clientSync", "clientSync\clientSync.vcxproj", "{C518891A-3C86-4E83-9F0A-B315026A3FF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{154E59EB-ECC7-41FE-ACB6-6DE540512B00}.Debug|Win32.ActiveCfg = Debug|Win32
+		{154E59EB-ECC7-41FE-ACB6-6DE540512B00}.Debug|Win32.Build.0 = Debug|Win32
+		{154E59EB-ECC7-41FE-ACB6-6DE540512B00}.Release|Win32.ActiveCfg = Release|Win32
+		{154E59EB-ECC7-41FE-ACB6-6DE540512B00}.Release|Win32.Build.0 = Release|Win32
+		{FB4DC8A8-B6F0-45D2-AB2C-77B8CA2C54C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB4DC8A8-B6F0-45D2-AB2C-77B8CA2C54C5}.Debug|Win32.Build.0 = Debug|Win32
+		{FB4DC8A8-B6F0-45D2-AB2C-77B8CA2C54C5}.Release|Win32.ActiveCfg = Release|Win32
+		{FB4DC8A8-B6F0-45D2-AB2C-77B8CA2C54C5}.Release|Win32.Build.0 = Release|Win32
+		{C518891A-3C86-4E83-9F0A-B315026A3FF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C518891A-3C86-4E83-9F0A-B315026A3FF0}.Debug|Win32.Build.0 = Debug|Win32
+		{C518891A-3C86-4E83-9F0A-B315026A3FF0}.Release|Win32.ActiveCfg = Release|Win32
+		{C518891A-3C86-4E83-9F0A-B315026A3FF0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

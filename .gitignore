@@ -1,0 +1,9 @@
+Debug
+live/Debug/
+serverSync/Debug/
+clientSync/Debug/
+*.suo
+*.sdf
+
+
+

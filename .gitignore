@@ -4,6 +4,8 @@ serverSync/Debug/
 clientSync/Debug/
 *.suo
 *.sdf
+*.opensdf
+*.*~
 
 
 

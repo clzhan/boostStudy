@@ -45,9 +45,12 @@ int main(int argc, char * argv[])
 
 	//1.创建一个IOservice
 	boost::asio::io_service io_service;
+	boost::asio::ip::address addr;
+	addr.from_string("10.10.6.91");
 
 	//2.构建一个endpoint
-	boost::asio::ip::tcp::endpoint ep(boost::asio::ip::address::from_string("10.10.6.91"), 8868);//创建目标地址对象
+	//boost::asio::ip::tcp::endpoint ep(boost::asio::ip::address::from_string("10.10.6.91"), 8868);//创建目标地址对象
+	boost::asio::ip::tcp::endpoint ep(addr, 8868);//创建目标地址对象
 
 	////2. 创建一个resolver
 	//tcp::resolver resolver(io_service);

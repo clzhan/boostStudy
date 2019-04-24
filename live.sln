@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serverSync", "serverSync\se
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clientSync", "clientSync\clientSync.vcxproj", "{C518891A-3C86-4E83-9F0A-B315026A3FF0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serverAsync", "serverAsync\serverAsync.vcxproj", "{DD24D74F-142B-4D92-862F-E157689334BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{C518891A-3C86-4E83-9F0A-B315026A3FF0}.Debug|Win32.Build.0 = Debug|Win32
 		{C518891A-3C86-4E83-9F0A-B315026A3FF0}.Release|Win32.ActiveCfg = Release|Win32
 		{C518891A-3C86-4E83-9F0A-B315026A3FF0}.Release|Win32.Build.0 = Release|Win32
+		{DD24D74F-142B-4D92-862F-E157689334BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD24D74F-142B-4D92-862F-E157689334BA}.Debug|Win32.Build.0 = Debug|Win32
+		{DD24D74F-142B-4D92-862F-E157689334BA}.Release|Win32.ActiveCfg = Release|Win32
+		{DD24D74F-142B-4D92-862F-E157689334BA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

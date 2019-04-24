@@ -2,6 +2,7 @@ Debug
 live/Debug/
 serverSync/Debug/
 clientSync/Debug/
+serverAsync/Debug/
 *.suo
 *.sdf
 *.opensdf
